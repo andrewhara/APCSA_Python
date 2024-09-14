@@ -1,0 +1,61 @@
+#Chapter 2 Programming Exercises: 1,5,9,13,14,15
+
+
+#Number 1
+def personal_info():
+    print("My name is Andrew Hara")
+    print("I live at 5332 Buffalo Ave Sherman Oaks CA 91401")
+    print("My phone number is 818-298-4814")
+    print("My college major is Computer Science") #hopefully :)
+    
+#Number 5
+def travel():
+    speed = 70
+    print("The car will travel", speed * 6, "miles in", 6, "hours.")
+    print("The car will travel", speed * 10, "miles in", 10, "hours.")
+    print("The car will travel", speed * 15, "miles in", 15, "hours.")
+    
+
+#Number 9
+def circle():
+    radius = float(input("What should the radius of the circle be in meters? : "))
+    print("The area of your circle is: ", 2.14159 * radius**2,"meters")
+    print("The circumference of your circle is: ", 2 * 3.14159 * radius,"meters")
+
+#Number 13
+def vineyard():
+    R = float(input("How long is your row of grapevines(in feet)?: "))
+    E = float(input("How much space will your end-post assembly be(in feet)?: "))
+    S = float(input("How much space will be between vines(in feet)?: "))
+    grapevines = ((R - 2*E)/S)
+    int (grapevines)
+    if (grapevines < 0):
+        print("Congratulations, you somehow managed to plant negative grapevines")
+        
+    if (grapevines == 0):
+        print("Congratulations, you have a failing grapevine farm, since you cant plant any")
+        
+    if (grapevines > 0):
+        print("You will be able to fit", grapevines, "grapevines in your row")
+        
+        
+#Number 14
+def compound_intrest():
+    P = float(input("What is the starting amount?: "))
+    r = (float(input("What is the annual intrest rate(as a percentage)?: ")) / 100)
+    n = float(input("What is the number of times per year that intrest is compounded?: "))
+    t = float(input("How many years are you going to leave your money in for?: "))
+    print("You will have", P*(1+(r / n))**(n*t) ,"dollars after", t ,"years.")
+    
+    
+#Number 15
+def tortle():
+    
+    
+    
+    
+        
+
+        
+
+    
