@@ -1,0 +1,35 @@
+#Prism
+
+import turtle as turt
+
+turt.forward(100)
+turt.right(90)
+turt.forward(100)
+turt.right(90)
+turt.forward(100)
+turt.right(90)
+turt.forward(200)
+turt.left(90)
+turt.forward(100)
+turt.left(90)
+turt.forward(100)
+turt.left(90)
+turt.forward(100)
+turt.right(45)
+turt.forward(141.421356237)
+turt.right(180)
+turt.forward(282.842712475)
+turt.left(135)
+turt.forward(100)
+turt.left(45)
+turt.forward(141.421356237)
+turt.left(45)
+turt.forward(100)
+turt.left(90)
+turt.forward(100)
+turt.left(45)
+turt.forward(141.421356237)
+
+
+turt.hideturtle()
+input("Press any key to exit")
