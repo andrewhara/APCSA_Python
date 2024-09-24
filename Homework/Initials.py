@@ -16,7 +16,6 @@ def initials():
     print("  AAAAAAAAAAAA      KKKK              HHHHHHHHHHHH      ")
     print("  AAAAAAAAAAAA      KKKK              HH        HH      ")
     print("  AA        AA      KK  KK            HH        HH      ")
-    print("  AA        AA      KK    KK          HH        HH      ")
     print("  AA        AA  ..  KK      KK    ..  HH        HH  ..  ")
     print("  AA        AA  ..  KK        KK  ..  HH        HH  ..  ")
     print()
