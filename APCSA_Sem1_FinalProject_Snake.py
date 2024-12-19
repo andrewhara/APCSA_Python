@@ -22,7 +22,7 @@ hor = 0
 vert = 0
 fruit_position = None
 snake_segments = []  #List to hold the segments of the snake
-score = 0
+
 
 #Move snake to top-left corner to start the grid drawing
 trt.penup()
@@ -124,7 +124,6 @@ def move_snake():
         screen.ontimer(move_snake, 200)  #Continue movement every 200 ms
     else:
         print("Game Over")
-        print("Your final score is:" , score)
 
     #Check if the snake eats the fruit
     if trt.distance(fruit_position) < 20:  #Adjust threshold for "eating" the fruit
