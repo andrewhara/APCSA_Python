@@ -95,7 +95,6 @@ def grow():
     segment = turt.Turtle('square')
     segment.penup()
     snake_segments.append(segment)  #Add segment to the list
-    score += 1
     if length > 0:
         #Position the new segment behind the last one
         if len(snake_segments) > 1:
